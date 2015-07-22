@@ -4,8 +4,11 @@
 - Install Virtualbox
 - Download [simple-magento-vagrant](https://github.com/ehudthelefthand/simple-magento-vagrant/archive/master.zip). You will get the file name "simple-magento-vagrant-master.zip". Just unzip and rename it as you wish. In this case I will call it "simple-magento-vagrant".
 ```
-cd ./simple-magento-vagrant
-vagrant up
+$ cd ./simple-magento-vagrant
+$ vim Vagrantfile
+// On line 5. change sample_data = "true" to sample_data = "false" or leave it incase you need sample data
+// Save changed
+$ vagrant up
 ```
 
 ##### Install this module using modman
