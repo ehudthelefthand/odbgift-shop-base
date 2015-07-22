@@ -2,8 +2,8 @@
 ##### Setup Environment
 - Install Vagrant
 - Install Virtualbox
+- Download [simple-magento-vagrant](https://github.com/ehudthelefthand/simple-magento-vagrant/archive/master.zip). You will get the file name "simple-magento-vagrant-master.zip". Just unzip and rename it as you wish. In this case I will call it "simple-magento-vagrant".
 ```
-git clone https://github.com/ehudthelefthand/simple-magento-vagrant.git
 cd ./simple-magento-vagrant
 vagrant up
 ```
@@ -18,7 +18,7 @@ source ~/.profile
   * Then...
 
 ```
-cd [Your Magento Directory] // If you use "simple-magento-vagrant". It should be in the ./simple-magento-vagrant/httpdocs
+cd [Your Magento Directory] // If you use "simple-magento-vagrant". It should be in ./simple-magento-vagrant/httpdocs
 modman init
 modman clone https://github.com/ehudthelefthand/odbgift-shop-base.git
 ```
