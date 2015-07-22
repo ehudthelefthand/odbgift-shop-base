@@ -14,7 +14,11 @@ $ vagrant up
 ##### Install this module using modman
   * Don't have modman yet? Don't worry open your termial and put this in.
 ```
-bash << (curl -s -L https://raw.github.com/colinmollenhour/modman/master/modman-installer)
+bash < <(wget -q --no-check-certificate -O - https://raw.github.com/colinmollenhour/modman/master/modman-installer)
+```
+or
+```
+bash < <(curl -s -L https://raw.github.com/colinmollenhour/modman/master/modman-installer)
 source ~/.profile
 ```
 
