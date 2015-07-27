@@ -29,3 +29,13 @@ cd [Your Magento Directory] // If you use "simple-magento-vagrant". It should be
 modman init
 modman clone https://github.com/ehudthelefthand/odbgift-shop-base.git
 ```
+
+##### Restore data
+Extract the this file >> httpdocs/.modman/odbgift-shop-base/data/media-20150727072348.tgz
+
+You will get 2 folders.
+- media : Copy this folder and replace it in the magento root directory
+- var : You will get 1437981828_db.gz file inside. Just extract it and run the SQL file against your magento database. If you use 'simple-magento-vagrant', the database name should be 'magentodb'
+
+
+Done!
