@@ -35,7 +35,7 @@ Default layout, loads most of the pages
     <default>
         <reference name="top.links">
             <block type="wishlist/links" name="wishlist_link" />
-            <action method="addLinkBlock"><blockName>wishlist_link</blockName></action>
+            <!-- <action method="addLinkBlock"><blockName>wishlist_link</blockName></action> -->
         </reference>
 
         <!-- Mage_Wishlist -->
@@ -51,7 +51,7 @@ Customer account pages, rendered for all tabs in dashboard
     <customer_account>
         <!-- Mage_Wishlist -->
         <reference name="customer_account_navigation">
-            <action method="addLink" translate="label" module="wishlist" ifconfig="wishlist/general/active"><name>wishlist</name><path>wishlist/</path><label>My Wishlist</label></action>
+            <!-- <action method="addLink" translate="label" module="wishlist" ifconfig="wishlist/general/active"><name>wishlist</name><path>wishlist/</path><label>My Wishlist</label></action> -->
         </reference>
     </customer_account>
 
