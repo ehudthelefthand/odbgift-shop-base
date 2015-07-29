@@ -4019,7 +4019,8 @@ a.skip-link {
   color: #3399cc;
 }
 .footer .block-subscribe {
-  float: right;
+  /*float: left;*/
+  margin: 0 auto;
   width: 320px;
   margin-bottom: 30px;
 }
